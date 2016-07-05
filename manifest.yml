@@ -1,0 +1,6 @@
+---
+applications:
+- name: python-iot-khoa
+  memory: 256M
+  services:
+   - iot-python

@@ -1,0 +1,45 @@
+<html>
+<title>Hello EveryBody</title>
+<body>
+        <h2 align="center">Ứng dụng cơ bản để điều khiển thiết bị qua Internet</h2>
+        <h1 align="center">INTERNET OF THINGS</h1>
+<p><img src="http://farm8.staticflickr.com/7407/26330955544_97cbc5d6ab_o.png"/></p>
+<div align="center">
+<table width="600" height="250" border="1">
+  <tr><th colspan="3" scope="row">Điều khiển thiết bị qua Internet</th></tr>
+  <tr>
+    <th width="196" scope="row"><div align="center">Thiết bị </div></th>
+    <td width="185"><div align="center">Device 1 </div></td>
+    <td width="185"><div align="center">Device 2 </div></td>
+  </tr>
+  <tr>
+    <th scope="row">Trạng thái </th>
+    <td><div align="center">{{statusLed1}}</div></td>
+    <td><div align="center">{{statusLed2}}</div></td>
+  </tr>
+  <tr>
+    <th scope="row"><a href="http://python-iot-khoa.mybluemix.net">Điều Khiển</a></th>
+    <td><br><div align="center">
+        <form action="/led1/on" method="POST">
+        <input type="submit" value="Turn Light On">
+        </form></br>
+        <form action="/led1/off" method="POST">
+            <input type="submit" value="Turn Light Off">
+        </form></div><br></td>
+    <td></br><div align="center">
+        <form action="/led2/on" method="POST">
+        <input type="submit" value="Turn Light On">
+        </form><br>
+        <form action="/led2/off" method="POST">
+        <input type="submit" value="Turn Light Off">
+    </form></div></br></td></tr>
+</table></div><br>
+<div align="center"><a href="http://vdguvqu.j004.c2.iqpioe.com/iqp/end_app/index.html?app_id=1650b895-19cb-4768-8827-d87a750bd899" target="_blank">Ứng dụng theo dõi dữ liệu cảm biến</a></div>
+</body>
+</br>
+<footer>
+    <div align="center"> =============================================== </div>
+    <div align="center"> Create by Lê Nguyễn Anh Khoa, 2016 </div>
+    <br></br>            
+</footer>
+</html>
